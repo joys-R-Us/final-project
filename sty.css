@@ -148,9 +148,8 @@ h1, h5, p, .signup-btn {
   transition: color 0.3s, transform 0.3s;
 }
 
-/* Additional styles for hover effect on text elements */
+
 h1:hover, h5:hover, p:hover, .signup-btn:hover {
-  transform: scale(1.1); /* Scale up on hover (adjust as needed) */
-  color: #000000; /* Change color on hover */
-}
+  transform: scale(1.1); 
+  color: #000000;
   
