@@ -123,24 +123,36 @@ h1, p {
   background-color: #f5268d; 
   transform: translateY(-2px);
 }
-@media screen and (max-width: 400px){
-    .imges{
-        flex-direction: column;
-    }
-    .women{
-        flex-direction: column;
-    }
-    .empower{
-        flex-direction: column;
-    }
-    .spch2{
-        flex-direction: column;
-    }
-    .up{
-        flex-direction: column;
-    }
+@media screen and (max-width: 400px) {
+  .imges {
+    flex-direction: column;
+    align-items: center;
+  }
 
-}
+  .imges img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .women,
+  .empower,
+  .spch2,
+  .up,
+  .text {
+    margin: 4% 2%;
+    width: 96%;
+  }
+
+  .signup-btn {
+    padding: 8px 16px;
+  }
+
+  h1,
+  h5,
+  p {
+    font-size: 18px;
+  }
 body{
     background-color: #b4abab;
 }
