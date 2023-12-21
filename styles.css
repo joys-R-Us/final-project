@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+h4 {
+	text-transform: capitalize;
+}
+
+body {
+	background-color: #ffffff;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+	background-color: #ffb6c1;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+.img-ctn{
+	width: 40%;
+	margin-top: 5%;
+}
+
+.footer-ctn{
+	width: 84%;
+	margin: 1% 8%;
+	display: flex;
+	flex-direction: row;
+}
+
+#many {
+	width: 100%;
+	height: 350px;
+	order: -1; /* Move the image to the beginning */
+	margin-bottom: 10px; /* Adjust margin as needed */
+	padding: 5% 10%;
+}
+
+.m-container{
+	margin-left: 5%;
+}
+
+.footer-content {
+	flex: 1;
+	max-width: calc(100% - 170px); /* Adjust width to accommodate image */
+	margin-left: 20px; /* Adjust margin between image and content */
+}
+
+.fcol-container{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10%
+}
+
+.footer-col1{
+	margin-right: 25%;
+}
+
+.footer-col3{
+	margin-right: 20%;
+}
+.fcol-container2{
+	display: flex;
+	flex-direction: row;
+	margin-top: 5%;
+
+}
+
+.footer-col1 h4,
+.footer-col2 h4,
+.footer-col3 h4,
+.footer-col4 h4,
+.footer-col1 a,
+.footer-col2 a,
+.footer-col3 a,
+.footer-col4 a {
+	padding: 10px 0;
+	font-size: 18px;
+	color: rgba(180, 9, 18, 0.966);
+	line-height: 24px;
+	text-decoration: none;
+}
+
+.footer-col1 a:hover,
+.footer-col2 a:hover,
+.footer-col3 a:hover,
+.footer-col4 a:hover {
+	color: #4d4f55;
+}
+
+.icon {
+	color: #111;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+#p-cont,
+#Copyright,
+address {
+	padding: 10px 0;
+	font-size: 16px;
+	color: #111;
+	line-height: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+	.footer-col1 h4,
+	.footer-col2 h4,
+	.footer-col3 h4,
+	.footer-col4 h4,
+	.footer-col1 a,
+	.footer-col2 a,
+	.footer-col3 a,
+	.footer-col4 a {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	#many {
+		order: initial; /* Reset the order */
+		margin-bottom: 0; /* Reset margin */
+	}
+
+	.footer-content {
+		max-width: none;
+		margin-left: 30px; /* Adjust margin between image and content */
+	}
+}
