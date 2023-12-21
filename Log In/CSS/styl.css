@@ -1,5 +1,8 @@
+
 body{
-  background-image: url(gif.gif);  
+  background-image: url("girll.gif");  
+  background-position: 90%;
+  background-size: cover;
   height: 500px; 
   display: flex;
   justify-content: center;
