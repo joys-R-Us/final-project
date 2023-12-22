@@ -1,6 +1,5 @@
 
 body{
-  background-image: url("./img/logIn/girll.gif");  
   background-image: url("girll.gif");  
   background-position: 90%;
   background-size: cover;
@@ -14,7 +13,7 @@ body{
 .container {
   width: 20%;
   padding: 20px;
-  background-image: url(./img/logIn/download.gif);
+  background-image: url(download.gif);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 25px;
   background-position: center; 
