@@ -1,4 +1,4 @@
 function redirectToSignUp() {
-    window.location.href = "./sign.html"
+    window.location.href = "./Log In/sign.html"
   }
   
