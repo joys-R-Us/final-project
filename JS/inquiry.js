@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function () {
         alert('Thank you!\nYour message has been successfully submitted. Salamat!');
     });
 
-    
     document.getElementById('close-btn').addEventListener('click', function () {
         
         popup.style.display = 'none';
