@@ -14,7 +14,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
     console.log("Login successful!");
     document.getElementById("login-message").innerText = "Login successful!";
     document.getElementById("login-message").style.color = "green";
-    window.location.href = './home.html';
+    window.location.href = '../home.html';
   } else {
     document.getElementById("login-message").innerText = "If you're new here, let's get you started by creating your account!";
     document.getElementById("login-message").style.color = "red";
