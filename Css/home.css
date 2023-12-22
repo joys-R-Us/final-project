@@ -21,11 +21,18 @@ body {
         width: 100%;
         text-align: right;
     }
-    .right-text img{ /*twitter/fb*/
+    .icons{
         width: 10%;
-        max-width: 100%;
-        display: grid;
-        margin-left: 89% ;
+        margin: 1% 0 1% 89%;
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent;
+        background-blend-mode: lighten;
+        border-style: none;
+        border-width: 1px;
+    }
+    .icons:hover{
+        cursor: pointer;
     }
     .phonelogo { /*logo sa left side*/
         width: 8%;
@@ -81,7 +88,11 @@ body {
         list-style: none;
         display: inline-block;
     }
-    nav ul li:hover {
+    #llinks {
+        text-decoration: none;
+        color: #000000;
+    }
+    nav ul li:hover, #llinks:hover {
         color: rgb(0, 106, 255);
         cursor: pointer;
         transform: scale(1.1);
@@ -546,6 +557,7 @@ body {
         color: #111;
         line-height: 24px;
         font-family: 'Montserrat', sans-serif;
+        margin: 0%;
     }
 }
 @media only screen and (min-width: 768px) { /*negad*/
@@ -591,11 +603,18 @@ body {
         width: 100%;
         text-align: right;
     }
-    .right-text img{ /*twitter/fb*/
+    .icons{
         width: 10%;
-        max-width: 100%;
-        display: grid;
-        margin-left: 89% ;
+        margin: 1% 0 1% 89%;
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent;
+        background-blend-mode: lighten;
+        border-style: none;
+        border-width: 1px;
+    }
+    .icons:hover{
+        cursor: pointer;
     }
     .phonelogo { /*logo sa left side*/
         width: 8%;
