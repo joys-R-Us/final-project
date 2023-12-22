@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Page</title>
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;200;400&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
+    <link rel="icon" href="icon.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Connect <span class="red">With</span> <span class="blue">Us</span> </h1>
+        <p>We would love to respond <span class="red">to your queries and help you succeed.</span> <br>
+            <span class="blue">Feel free to get in touch with us.</span></p>
+        <div class="contact-box"> 
+            <div class="contact-left">
+                <h3>Send your request</h3>
+                <form method="post" id="form-ctn">
+
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name:</label>
+                            <input type="text" placeholder="Name" name="Name">
+                        </div>
+                        <div class="input-group">
+                            <label>Phone:</label>
+                            <input type="number" placeholder="Number" name="Phone Number">
+                        </div>
+
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email:</label>
+                            <input type="email" placeholder="Example@gmail.com" name="Email">
+                        </div>
+                        <div class="input-group">
+                            <label>Subject:</label>
+                            <input type="text" placeholder="Topic" name="Subject">
+                        </div>
+                    </div>
+
+                        <label>Message</label>
+                        <textarea column="4" rows="5" placeholder="Your Message..." id="message-box" name="Message"></textarea>
+                        <div class="sub-ctn">
+                            <button type="submit" class="btn" id="btn">Send</button>
+                            <div class="popup" id="popup" data-keyboard="false" data-backdrop="static">
+                                <img src="check-img.png">
+                                <h2>Thank you!</h2>
+                                <p>Your message has been successfully submitted. Salamat!</p>
+                                <button type="button" id="close-btn">OK</button>
+                            </div>
+
+                        </div>
+                </form>
+            </div>
+            <div class="contact-right">
+                <h3>Reach Us</h3>
+
+                <table>
+                    <tr>
+                        <td>Email:</td>
+                        <td>unwomen12@yahoo.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone:</td>
+                        <td>+639202151413</td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td>4th floor, 8th street, Gaisano, Central<br>
+                             Nautical Hwy, Liloan, Cebu<br>
+                            </td>
+                    </tr>
+
+                </table>
+                <div class="icons">
+                    <a href="https://www.facebook.com/profile.php?id=61554712562680&is_tour_dismissed=true"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/unwomen12/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+             
+                
+
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/eb1dd63bb4.js" crossorigin="anonymous"></script>
+    <script src="contactus.js"></script>
+</body>
+</html>

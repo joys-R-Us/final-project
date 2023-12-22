@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(0deg, #FFB6C1, #fc6fe4);
+    height:100vh;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+}
+@media screen and (min-width: 728px) {
+    .container{
+    width: 80%;
+    margin: 50px auto;
+}}
+@media screen and (max-width: 727px) {
+    .container{
+    width: 80%;
+    margin: 50px auto;
+}}
+
+.popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #374af3;
+    font-family: 'Merriweather', serif;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup p{
+    font-size: 15px;
+    font-weight: 250;
+}
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #ec6762;
+    box-shadow: rgb(241, 134, 107);
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-box{
+    background:#fae2e1;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+
+}
+.contact-right{
+    flex-basis: 60%;
+    padding: 40px;
+    background:linear-gradient(0deg, #fda3b1, #fc6fe4);
+    color: #fafafa;
+}
+h3{
+    margin-bottom: 10px;
+
+}
+.container p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+    font-family:'Montserrat', sans-serif;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #a12f40;
+}
+button{
+    background:#ec6762;
+    width: 100px; 
+    color: #fff;
+    outline: none;
+    height: 35px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgb(241, 134, 107);
+}
+button:hover{
+    cursor: pointer;
+}
+.contact-left h3{
+    color: #f3625b;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+
+}
+tr td{
+    padding-top: 20px;
+}
+table{
+    margin-bottom: 60px;
+}
+h1{
+    color: #374af3
+}
+.message-box p{
+    color: rgb(212, 86, 2);
+    font-family: 'Montserrat', sans-serif;
+}
+.red{
+    color: #374af3;
+}
+.blue{
+    color: #374af3;
+}
+p{
+    color: #374af3;
+}
+.icons{
+    width: 20%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    background-blend-mode: lighten;
+    border-style: none;
+    border-width: 1px;
+}
+.icons:hover{
+    cursor: pointer;
+}
+a{
+    background-color: transparent;
+}
